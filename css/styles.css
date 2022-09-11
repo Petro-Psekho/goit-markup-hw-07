@@ -330,7 +330,7 @@ body {
 
 /* - - - - - - - - WHAT ARE WE DOING - - - - - - - - */
 
-.project {
+.section--padding-null {
   padding-top: 0px;
 }
 
@@ -338,11 +338,15 @@ body {
   display: flex;
 }
 
-.doing-list .item {
+.doing-list__item {
   position: relative;
 }
 
-.doing-list-title {
+.doing-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.doing-list__title {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -361,11 +365,7 @@ body {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.doing-list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-/* OUR TEAM */
+/* - - - - - - - - OUR TEAM - - - - - - - - */
 
 .team {
   background-color: var(--button-bgc);
