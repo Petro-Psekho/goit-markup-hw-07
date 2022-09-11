@@ -367,16 +367,20 @@ body {
 
 /* - - - - - - - - OUR TEAM - - - - - - - - */
 
-.team {
+.section--bg-color {
   background-color: var(--button-bgc);
 }
 
-.person {
+.team-list {
+  display: flex;
+}
+
+.team-list__meta {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-title-list {
+.team-list__title {
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -386,34 +390,22 @@ body {
   text-align: center;
 }
 
-.team-list .list-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.team p {
+.team-list__metier {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.team-list {
-  display: flex;
-}
-
-.team-list .item {
+.team-list__item {
   width: calc((100% - 90px) / 4);
 
-  background: #ffffff;
+  background: var(--inverts-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list .item:not(:last-child) {
+.team-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -424,7 +416,7 @@ body {
   margin-top: 16px;
 }
 
-.icon-social {
+.social__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,13 +431,13 @@ body {
   fill: var(--icon-color);
 }
 
-.social .social-list:not(:last-child) {
+.social__list:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon-social:hover,
-.icon-social:focus {
-  fill: #ffffff;
+.social__icon:hover,
+.social__icon:focus {
+  fill: var(--inverts-color);
   background-color: var(--main-color);
 }
 
