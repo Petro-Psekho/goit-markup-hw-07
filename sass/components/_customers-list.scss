@@ -24,17 +24,19 @@
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     border-color: $main-color;
   }
 }
 
 .customers-list__icon {
   fill: $icon-color;
-  
+
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .customers-list__link:hover &, .customers-list__link:focus & {
+  .customers-list__link:hover &,
+  .customers-list__link:focus & {
     fill: $main-color;
   }
 }
