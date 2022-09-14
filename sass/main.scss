@@ -1,6 +1,8 @@
 @import './utils/is-hidden';
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/sentered-flex';
+@import './utils/placeholder-section';
 
 @import './base/fonts';
 @import './base/common';
@@ -29,7 +31,6 @@
 @import './themes/logo--light-theme';
 @import './themes/logo--dark-theme';
 
-@import './layout/cards-grid';
 @import './layout/footer';
 @import './layout/hero';
 @import './layout/page-header';

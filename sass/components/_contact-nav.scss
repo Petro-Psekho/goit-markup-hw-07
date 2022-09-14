@@ -8,9 +8,12 @@
 }
 
 .contact-nav__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
   outline: none;
 
   padding-top: 20px;

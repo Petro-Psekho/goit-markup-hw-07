@@ -1,6 +1,9 @@
 .nav-list {
-  display: flex;
-  align-items: center;
+  @include flexCenter();
+
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 
 .nav-list__item {

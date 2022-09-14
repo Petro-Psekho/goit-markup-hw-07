@@ -1,7 +1,10 @@
 .social-footer-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter();
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
   gap: 10px;
 }
 
@@ -12,9 +15,12 @@
 }
 
 .social-footer-list__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
   outline: none;
 
   width: 44px;
